@@ -1,0 +1,51 @@
+# Build outputs
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local machine settings
+Directory.Build.props
+*.local.props
+*.local.targets
+.env
+
+# Game / MelonLoader generated files
+MelonLoader/
+Mods/
+UserData/
+Logs/
+Latest.log
+*.log
+
+# Release / asset bundles - upload these to GitHub Releases instead of committing
+*.zip
+*.7z
+*.rar
+*.bundle
+*.unity3d
+*.assets
+*.bytes
+
+# Optional Domain Expansion background assets
+IAmCatGojoMod/domain_blackhole_background.png
+domain_blackhole_background.png
+domain_blackhole_background_1024x576_rgba.bytes
+
+# OS files
+.DS_Store
+Thumbs.db

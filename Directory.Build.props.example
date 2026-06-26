@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <!-- Copy this file to Directory.Build.props and edit the path for your local machine. -->
+    <!-- Do not commit Directory.Build.props. It is intentionally ignored by .gitignore. -->
+    <GameDir>C:\Program Files (x86)\Steam\steamapps\common\I Am Cat</GameDir>
+  </PropertyGroup>
+</Project>
